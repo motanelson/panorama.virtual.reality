@@ -19,8 +19,8 @@ image_width = panorama.get_width()
 image_height = panorama.get_height()
 
 # Verificar se a imagem tem o tamanho esperado
-if image_width != 6000 or image_height != 600:
-    raise ValueError("A imagem deve ter exatamente 6000px de largura por 600px de altura.")
+#if image_width != 6000 or image_height != 600:
+#    raise ValueError("A imagem deve ter exatamente 6000px de largura por 600px de altura.")
 
 # Posição inicial do deslocamento
 offset = 0
